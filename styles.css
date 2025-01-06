@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://mkgender-party.my.canva.site/media/c2a738153d8a7f8aa99f6899172cdc6b.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background: linear-gradient( #00000080, #00000080 ), url('https://mkgender-party.my.canva.site/media/c2a738153d8a7f8aa99f6899172cdc6b.png');
+}
+.header {
+    text-align: center;
+    padding: 20px;
+}
+.header .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+.header .line span {
+    font-size: 10rem;
+    font-family: 'Dancing Script', cursive;
+}
+.header .line .he {
+    color: #5097d1;
+}
+.header .line .or {
+    color: #a0a0a0;
+}
+.header .line .she {
+    color: #d56e84;
+}
+.question-line {
+    display: inline-block;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #726d6780;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.question-line .he {
+    color: #5097d1;
+}
+.question-line .or {
+    color: #a0a0a0;
+}
+.question-line .she {
+    color: #d56e84;
+}
+.question-line .question {
+    color: #000000;
+}
+.content {
+    text-align: center;
+    padding: 15px 10px; /* Зменшення відступів */
+}
+.content .invitation {
+    font-size: 1.8rem; /* Трохи менший розмір */
+    margin-bottom: 8px;
+    padding: 8px 12px; /* Менші відступи */
+    background-color: #726d6780; /* Напівпрозорий фон */
+    color: white;
+    border-radius: 10px; /* Закруглені краї */
+    display: inline-block; /* Для обмеження ширини тексту */
+    margin: 10px auto; /* Центрування блоку */
+    text-align: center; /* Центрування тексту */
+}
+.content .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .details p,
+.content .note,
+.presence-message {
+    font-size: 1.5rem; /* Розмір тексту */
+    background-color: #726d6780; /* Напівпрозорий фон */
+    color: white;
+    padding: 5px 10px; /* Зменшення відступів */
+    border-radius: 10px; /* Закруглені краї */
+    display: inline-block; /* Для обмеження ширини тексту */
+    margin: 10px auto; /* Центрування блоку */
+    text-align: center; /* Центрування тексту */
+}
+.palette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px; /* Простір між елементами */
+    margin-top: 15px; /* Відступ від верхнього елемента */
+}
+
+.palette p {
+    font-size: 1.5rem; /* Розмір тексту */
+    color: white;
+    background-color: #726d6780; /* Напівпрозорий фон */
+    padding: 5px 10px; /* Менші відступи */
+    border-radius: 10px; /* Закруглені краї */
+    margin-bottom: 10px; /* Простір під текстом */
+}
+.palette .footer-text {
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 20px;
+    background-color: #726d6780;
+    border-radius: 10px;
+}
+.colors {
+    display: flex;
+    justify-content: center;
+    gap: 8px; /* Простір між кольоровими колами */
+}
+
+.color {
+    width: 40px; /* Розмір кола */
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.color.brown { background-color: #7d5a50; }
+.color.pink { background-color: #e2a1a6; }
+.color.light-pink { background-color: #f3d9db; }
+.color.beige { background-color: #f6e8dc; }
+.color.white { background-color: #ffffff; border: 1px solid #ccc; }
+.wishlist {
+    margin-top: 50px; /* Зменшити, якщо все одно не вміщується */
+    padding: 0;
+}
+.wishlist a {
+    display: inline-block;
+    margin: 10px auto;
+    text-decoration: none;
+    color: white;
+    background-color: #5097d1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wishlist img {
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+    font-size: 1.2rem;
+}
+footer p {
+    margin: 5px 0;
+    background-color: #726d6780;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.wishlist-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.wishlist-item {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.wishlist-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.wishlist-item a {
+    text-decoration: none;
+    color: #5097d1;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.wishlist-item .reserve-button {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #d56e84;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
