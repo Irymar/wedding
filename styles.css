@@ -23,8 +23,7 @@ body {
 }
 .header .line span {
     font-size: 4rem;
-    font-family: 'Dancing Script', 'Great Vibes', cursive;
-
+    font-family: 'Roboto', 'Arial', 'sans-serif', cursive;
 }
 .header .line .he {
     color: #5097d1;
