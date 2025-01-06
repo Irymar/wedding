@@ -12,17 +12,17 @@ body {
 
 .header {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 .header .line {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    margin-bottom: 5px;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 .header .line span {
-    font-size: 4rem;
+    font-size: 8rem;
     font-family: 'Dancing Script', cursive;
 }
 .header .line .he {
@@ -37,13 +37,13 @@ body {
 
 .question-line {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #726d6780;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-top: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 .question-line .he {
     color: #5097d1;
@@ -57,76 +57,77 @@ body {
 
 .content {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 .content .invitation {
-    font-size: 1.2rem;
+    font-size: 2rem;
     background-color: #726d6780;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 0;
     display: inline-block;
 }
 
 .details .event-date, .details .event-location {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     background-color: #726d6780;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 0;
     display: inline-block;
 }
 
 .note {
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: #726d6780;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin: 5px auto; /* Центрування блоку */
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px auto; /* Центрування блоку */
     max-width: 90%;
-    line-height: 1.4;
+    line-height: 1.6;
     text-align: center; /* Центрування тексту всередині блоку */
     display: block;
 }
 
+
 .presence-message {
-    margin: 10px auto;
-    font-size: 1rem;
+    margin: 20px auto;
+    font-size: 1.5rem;
     background-color: #726d6780;
     color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 15px 20px;
+    border-radius: 10px;
     display: inline-block;
     max-width: 80%;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 
 .palette {
     text-align: center;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .palette p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #726d6780;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
     display: inline-block;
 }
 
 .colors {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 .color {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
@@ -139,40 +140,40 @@ body {
 /* Адаптивність */
 @media (max-width: 768px) {
     .header .line span {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .question-line {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     .content .invitation, .details .event-date, .details .event-location, .note {
-        font-size: 1rem;
-        padding: 5px 8px;
+        font-size: 1.5rem;
+        padding: 8px 10px;
     }
     .palette p {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 }
 
 @media (max-width: 480px) {
     .header .line span {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .question-line {
-        font-size: 1rem;
-        padding: 3px 5px;
+        font-size: 1.5rem;
+        padding: 5px 10px;
     }
     .content .invitation, .details .event-date, .details .event-location, .note {
-        font-size: 0.8rem;
-        padding: 3px 5px;
+        font-size: 1.2rem;
+        padding: 5px 8px;
     }
     .palette p {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
     .colors {
         flex-wrap: wrap;
     }
     .color {
-        width: 15px;
-        height: 15px;
+        width: 30px;
+        height: 30px;
     }
 }
