@@ -155,3 +155,27 @@ body {
         font-size: 1.2rem;
     }
 }
+
+@media (max-width: 480px) {
+    .header .line span {
+        font-size: 3rem;
+    }
+    .question-line {
+        font-size: 1.5rem;
+        padding: 5px 10px;
+    }
+    .content .invitation, .details .event-date, .details .event-location, .note {
+        font-size: 1.2rem;
+        padding: 5px 8px;
+    }
+    .palette p {
+        font-size: 1rem;
+    }
+    .colors {
+        flex-wrap: wrap;
+    }
+    .color {
+        width: 30px;
+        height: 30px;
+    }
+}
